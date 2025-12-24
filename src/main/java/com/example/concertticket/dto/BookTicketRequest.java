@@ -1,0 +1,14 @@
+package com.example.concertticket.dto;
+
+public class BookTicketRequest {
+
+    private String userEmail;
+
+    public String getUserEmail() {
+        return userEmail;
+    }
+
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
+    }
+}
